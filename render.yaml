@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bloombites-mini-bouquet-cakes
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
